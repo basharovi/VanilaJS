@@ -21,7 +21,8 @@ function getProduct(id) {
   let apiRes = getProduct(0);
   console.log(apiRes);
   
-  apiRes.then( function(data) {
+  apiRes
+  .then( function(data) {
     console.log(data)
   })
   .catch( function(err) {
