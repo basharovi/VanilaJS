@@ -13,7 +13,10 @@ function getProducts() {
     return getProductById;
 }
 
+console.log(getProducts()(5));
+
 var products = getProducts();
+
 console.log(products(1));
 console.log(products(2));
 console.log(products(3));
