@@ -1,5 +1,4 @@
 
-
 const delayedColorChange = (color, delay) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -19,6 +18,16 @@ delayedColorChange('red', 1000)
 };
 
 
-executePromise();
+const executePromiseAsync = async () => {
+
+    await delayedColorChange('red', 1000);
+    await delayedColorChange('green', 1000);
+    await delayedColorChange('yellow', 1000);
+    
+    };
+
+
+// executePromise();
+executePromiseAsync();
 
 
