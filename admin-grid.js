@@ -4,6 +4,10 @@ const adminGridType = {
   toPublish: 3,
   toActive: 4,
   undeDecommision: 5,
+  listGird: {
+    value: 1,
+    text: "a1",
+  },
 };
 
 const adminGridDataCounts = {
